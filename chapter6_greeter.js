@@ -43,7 +43,7 @@ let lastName = () => {
 /*
 let firstName = () => require('readline-sync').question("What is your first name?\n");
 
-// Shouldn't be let name = require('readline-sync').question("What is your first name?\n");
+// Shouldn't be let firstName = () => let name = require('readline-sync').question("What is your first name?\n");
 // Arrow functions with a single expression don't require local variables.
 
 let lastName = () => require('readline-sync').question("What is your last name?\n");
